@@ -5,7 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="dark" name="color-scheme"/>
-<title>Lighthouse · Creative Compass · v28.4</title>
+<title>Lighthouse · Creative Compass · v28.5</title>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
 <style>
 :root{color-scheme:dark;--bg:#191919;--panel:#202329;--panel2:#252a34;--ink:#f4f6fa;--muted:#a0a9b7;--quiet:#737f91;--line:rgba(162,185,217,.16);--line2:rgba(162,185,217,.24);--blue:#72aeff;--orange:#D87620;--violet:#b5a2ff;--green:#72d9b5;--pink:#f29aac;--cyan:#7dd9ee;--shadow:0 18px 42px rgba(0,0,0,.26)}
@@ -4004,11 +4004,54 @@ body:has(#modal[open]) .ocean .ambient-bubble{animation-play-state:paused!import
 #brandCollection .os283-duplicates p{margin:8px 0;color:#b4a79d;line-height:1.5}
 #brandCollection .os283-duplicate{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid #443b34}
 #brandCollection .os283-duplicate span{overflow-wrap:anywhere}
-</style></head>
+</style><style id="lh285-notion-embed-layout">
+/* v28.5: Less scrolling when Lighthouse is displayed inside Notion's iframe.
+   The frame itself is controlled by Notion; the embedded document cannot resize it. */
+.lh285-embed-bar{display:none}
+html.lh285-embedded .lh285-embed-bar{
+  display:flex; align-items:center;justify-content:space-between;gap:12px;
+  position:sticky;top:0;z-index:100;
+  margin:0 0 10px;padding:8px 12px;min-height:40px;
+  background:#242424;border:1px solid #414141;border-radius:9px;
+  color:#a9a9a9;font-size:11px;box-shadow:0 5px 16px rgba(0,0,0,.18);
+}
+.lh285-embed-bar a{
+ display:inline-flex;align-items:center;justify-content:center;gap:5px;white-space:nowrap;
+ min-height:29px;padding:5px 11px;border-radius:7px;
+ color:#ffe5ce;background:#443021;border:1px solid #755034;
+ font-size:11px;font-weight:700;text-decoration:none;
+}
+.lh285-embed-bar a:hover{background:#593d29;border-color:#bb8555}
+/* A native dialog normally centres inside the full iframe viewport. If the embed
+   is taller than the visible portion of the Notion page, it can open below fold.
+   Anchor it to the iframe top and scroll content inside the modal instead. */
+html.lh285-embedded #modal{
+ margin:10px auto auto!important;
+ max-height:calc(100dvh - 20px)!important;
+ overscroll-behavior:contain;
+}
+html.lh285-embedded #modal .modal-body{
+ max-height:calc(100dvh - 98px)!important;
+ overflow-y:auto!important;
+ overscroll-behavior:contain!important;
+}
+@media(max-width:600px){
+ html.lh285-embedded .lh285-embed-bar{font-size:10px;padding:7px 9px}
+ html.lh285-embedded .lh285-embed-bar a{font-size:10px;padding:5px 8px}
+ html.lh285-embedded #modal .modal-body{max-height:calc(100dvh - 91px)!important}
+}
+</style>
+<script>
+// Same permanent GitHub Pages URL works inside Notion and as a full browser page.
+try{if(window.self!==window.top)document.documentElement.classList.add('lh285-embedded');}
+catch(_){document.documentElement.classList.add('lh285-embedded');}
+</script>
+</head>
 <body>
 <div class="lh153-owner-dock" role="region" aria-label="Owner publishing tools"><div class="lh153-dock-copy"><strong>Editing mode · Lighthouse</strong><small>Paste links on cards → Save → Export to publish</small></div><button type="button" class="lh153-dock-export" data-lh153-export>Export updated hub ↓</button></div>
 <div aria-hidden="true" class="ocean"></div>
 <div class="container">
+<div class="lh285-embed-bar" aria-label="Lighthouse embedded view"><span>Lighthouse · embedded in Notion</span><a id="lh285-open-page" href="./" target="_blank" rel="noopener noreferrer" title="Open Lighthouse in a full browser tab">↗ Open full page</a></div>
 <div class="lh96-opening">
   <aside class="lh96-utility-side" aria-label="Lighthouse shortcuts">
     <button class="minibtn" id="settingsBtn" title="Configure destination links" type="button">⚙  Manage links</button>
@@ -17431,5 +17474,9 @@ document.addEventListener('lighthouse:languagechange',()=>{if(root()){read();sho
 })();
 </script>
 
+<script id="lh285-embed-init">
+(function(){const link=document.getElementById('lh285-open-page');if(link){link.href=window.location.href;}}
+)();
+</script>
 </body>
 </html>
