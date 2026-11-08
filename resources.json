@@ -1,0 +1,552 @@
+{
+  "format": "lighthouse-resources",
+  "version": 1,
+  "updatedAt": "2026-11-08",
+  "links": {},
+  "assets": {},
+  "starterItems": {
+    "presentations": [
+      {
+        "id": "sales-deck",
+        "name": "Sales & partnership deck",
+        "desc": "External pitches and partner discussions",
+        "image": 6,
+        "example": true
+      },
+      {
+        "id": "internal-deck",
+        "name": "Internal presentation",
+        "desc": "All Hands and team updates",
+        "image": 0,
+        "example": true
+      },
+      {
+        "id": "deck-layouts",
+        "name": "Deck layouts",
+        "desc": "Choose a suitable slide structure",
+        "icon": "▦"
+      },
+      {
+        "id": "deck-checklist",
+        "name": "Before you present",
+        "desc": "Final review & export checklist",
+        "icon": "✓"
+      }
+    ],
+    "onepagers": [
+      {
+        "id": "offsite-onepager",
+        "name": "Offsite information sheet",
+        "desc": "Event details and key information",
+        "image": 1,
+        "example": true
+      },
+      {
+        "id": "event-onepager",
+        "name": "Event announcement sheet",
+        "desc": "Sessions and agendas",
+        "image": 2,
+        "example": true
+      },
+      {
+        "id": "onepager-layouts",
+        "name": "One-pager layouts",
+        "desc": "Structure a clear one-page document",
+        "icon": "▦"
+      },
+      {
+        "id": "onepager-checklist",
+        "name": "Export a one-pager",
+        "desc": "Readable PDF & content checklist",
+        "icon": "✓"
+      }
+    ],
+    "marketing": [
+      {
+        "id": "social-game",
+        "name": "Event social post",
+        "desc": "Announcements and event promotion",
+        "image": 3,
+        "example": true
+      },
+      {
+        "id": "social-chinajoy",
+        "name": "Conference announcement",
+        "desc": "Speaker or team promotion",
+        "image": 4,
+        "example": true
+      },
+      {
+        "id": "marketing-formats",
+        "name": "Choose a format",
+        "desc": "Social, banner or announcement",
+        "icon": "▦"
+      },
+      {
+        "id": "marketing-checklist",
+        "name": "Before publishing",
+        "desc": "Final copy & visual checklist",
+        "icon": "✓"
+      }
+    ],
+    "ai": [
+      {
+        "id": "prompt-studio",
+        "name": "Launch Prompt Workshop",
+        "desc": "Answer a few questions. Get a tailored prompt.",
+        "icon": "✦",
+        "prompt": true
+      }
+    ],
+    "brand": [
+      {
+        "id": "logos",
+        "name": "Logos",
+        "desc": "Official logo variants",
+        "icon": "▣"
+      },
+      {
+        "id": "fonts",
+        "name": "Typography",
+        "desc": "Approved typefaces",
+        "icon": "Aa"
+      },
+      {
+        "id": "colors",
+        "name": "Colors",
+        "desc": "Yodo1 palette",
+        "icon": "◉"
+      },
+      {
+        "id": "yodicons",
+        "name": "Yodicons",
+        "desc": "Mascot gallery, reactions & stickers",
+        "icon": "☺"
+      },
+      {
+        "id": "team-headshots",
+        "name": "Team headshots",
+        "desc": "Approved colleague photos for slides, bios & introductions",
+        "icon": "◉",
+        "placeholder": true
+      },
+      {
+        "id": "offsite-shirts",
+        "name": "Offsite T-shirts",
+        "desc": "Shirt artwork and print-ready files",
+        "icon": "▤",
+        "placeholder": true
+      },
+      {
+        "id": "offsite-graphics",
+        "name": "Offsite graphics",
+        "desc": "Roll-ups, welcome signage and offsite visuals",
+        "icon": "▧",
+        "placeholder": true
+      }
+    ]
+  },
+  "assetSeed": {
+    "presentations": [
+      [
+        "Board meeting slides",
+        "Leadership review and updates",
+        "▣"
+      ],
+      [
+        "Client pitch deck",
+        "Sales and partnership meetings",
+        "▣"
+      ],
+      [
+        "All Hands slides",
+        "Company-wide presentation format",
+        "▥"
+      ],
+      [
+        "Product roadmap slides",
+        "Features, milestones and next steps",
+        "▤"
+      ],
+      [
+        "Case study deck",
+        "Project evidence and results",
+        "▦"
+      ],
+      [
+        "Project status deck",
+        "Weekly progress and internal reviews",
+        "▣"
+      ],
+      [
+        "Pitch deck cover",
+        "Opening slide and first impression",
+        "▣"
+      ],
+      [
+        "Product overview slides",
+        "Features, proof points and screenshots",
+        "▤"
+      ],
+      [
+        "Case study slides",
+        "Results and customer stories",
+        "▥"
+      ],
+      [
+        "Partnership proposal",
+        "Reusable proposal structure",
+        "↗"
+      ]
+    ],
+    "onepagers": [
+      [
+        "Game overview sheet",
+        "Concise game or product introduction",
+        "▤"
+      ],
+      [
+        "Partnership handout",
+        "Single-page proposal and key facts",
+        "▦"
+      ],
+      [
+        "Event information sheet",
+        "Times, location and practical info",
+        "▧"
+      ],
+      [
+        "Internal process guide",
+        "Short, actionable how-to",
+        "▤"
+      ],
+      [
+        "Recruitment overview",
+        "Team or role summary",
+        "▦"
+      ],
+      [
+        "Product or service flyer",
+        "Key benefits and proof points",
+        "▧"
+      ],
+      [
+        "Offsite travel sheet",
+        "Travel and accommodation essentials",
+        "▤"
+      ],
+      [
+        "Team introduction sheet",
+        "People, bios and headshots",
+        "◎"
+      ],
+      [
+        "Partner one-pager",
+        "A quick overview for business partners",
+        "▤"
+      ],
+      [
+        "Game fact sheet",
+        "Game details and product highlights",
+        "▦"
+      ],
+      [
+        "Event agenda",
+        "Schedule and practical details",
+        "▧"
+      ],
+      [
+        "Campaign overview",
+        "One-page marketing summary",
+        "▣"
+      ],
+      [
+        "Product information sheet",
+        "Clear specs and essential facts",
+        "▤"
+      ],
+      [
+        "Internal quick guide",
+        "Simple how-to reference",
+        "☰"
+      ],
+      [
+        "Offsite agenda & information",
+        "Schedule, location and practical event details",
+        "▤"
+      ],
+      [
+        "Offsite recap one-pager",
+        "Highlights and takeaways from team events",
+        "▦"
+      ]
+    ],
+    "marketing": [
+      [
+        "Product launch social post",
+        "Launch-ready social media format",
+        "▧"
+      ],
+      [
+        "Company milestone post",
+        "Share company achievements",
+        "▦"
+      ],
+      [
+        "Event recap carousel",
+        "Post-event highlights and photos",
+        "▥"
+      ],
+      [
+        "Hiring announcement",
+        "Approved recruitment design",
+        "▧"
+      ],
+      [
+        "Partnership announcement",
+        "Brand collaboration post",
+        "▤"
+      ],
+      [
+        "Webinar or livestream cover",
+        "Speaker and session promotion",
+        "▧"
+      ],
+      [
+        "Conference speaker banner",
+        "Event speaker promotion",
+        "▥"
+      ],
+      [
+        "Game update graphic",
+        "Release notes or new content post",
+        "▦"
+      ],
+      [
+        "LinkedIn announcement",
+        "Ready-made post layout",
+        "▧"
+      ],
+      [
+        "LinkedIn banner",
+        "Profile and team cover graphics",
+        "▣"
+      ],
+      [
+        "Event announcement",
+        "Conference or offsite visuals",
+        "▥"
+      ],
+      [
+        "Game launch card",
+        "Game release and feature promotion",
+        "◩"
+      ],
+      [
+        "Newsletter header",
+        "Reusable email campaign graphic",
+        "▤"
+      ],
+      [
+        "Speaker spotlight",
+        "Introduce a teammate or guest",
+        "◎"
+      ],
+      [
+        "Event social graphics",
+        "Event announcements and attendee communications",
+        "▧"
+      ]
+    ],
+    "edit": [
+      [
+        "Text update",
+        "Update dates, names and copy",
+        "✎"
+      ],
+      [
+        "Replace a screenshot",
+        "Swap images in an approved file",
+        "▧"
+      ],
+      [
+        "Resize social artwork",
+        "Create approved format variants",
+        "⤢"
+      ],
+      [
+        "Change event details",
+        "Update a previously used asset",
+        "▤"
+      ]
+    ],
+    "brand": [
+      [
+        "Official logo pack",
+        "Primary, monochrome and alternate marks",
+        "▣"
+      ],
+      [
+        "Brand color palette",
+        "Approved color tokens and usage",
+        "◉"
+      ],
+      [
+        "Yodicon reactions",
+        "Approved mascot reactions and expressions",
+        "☺"
+      ],
+      [
+        "Presentation backgrounds",
+        "Branded slide backgrounds and covers",
+        "▥"
+      ],
+      [
+        "LinkedIn profile banners",
+        "Company-approved profile covers",
+        "▧"
+      ],
+      [
+        "Teams call backgrounds",
+        "Branded meeting backgrounds",
+        "▧"
+      ],
+      [
+        "People Team offsite shirts",
+        "People Team apparel variants",
+        "▤"
+      ],
+      [
+        "Zhuhai offsite welcome pack",
+        "Zhuhai event graphics and information",
+        "▦"
+      ],
+      [
+        "Houston offsite artwork",
+        "Houston signage, shirt and roll-up files",
+        "▧"
+      ],
+      [
+        "TFEW team offsite shirts",
+        "Approved Transformers: Earth Wars apparel",
+        "▤"
+      ],
+      [
+        "Trade-show booth graphics",
+        "Standees, booths and print signage",
+        "▦"
+      ],
+      [
+        "Company event badges",
+        "Lanyards, passes and badges",
+        "▣"
+      ],
+      [
+        "Team profile photos",
+        "Approved team headshots and portraits",
+        "◎"
+      ],
+      [
+        "Brand guidelines",
+        "Current brand usage reference",
+        "◉"
+      ],
+      [
+        "LinkedIn banners",
+        "Personal profile covers",
+        "▣"
+      ],
+      [
+        "Teams backgrounds",
+        "Approved video-call backgrounds",
+        "▧"
+      ],
+      [
+        "New teammate introduction",
+        "Intro slide and team welcome",
+        "☺"
+      ],
+      [
+        "Team portraits & introductions",
+        "Approved headshots and new-starter photos",
+        "◎"
+      ],
+      [
+        "Offsite welcome signage",
+        "Welcome boards, roll-ups and lobby signage",
+        "▣"
+      ],
+      [
+        "Event merchandise",
+        "Print-ready merchandise and giveaway artwork",
+        "▤"
+      ],
+      [
+        "Zhuhai offsite",
+        "Zhuhai team event graphics, information and print files",
+        "▧"
+      ],
+      [
+        "Houston offsite",
+        "Houston People Team graphics, signage and roll-ups",
+        "▣"
+      ],
+      [
+        "TFEW offsite",
+        "Transformers: Earth Wars team offsite material",
+        "▧"
+      ],
+      [
+        "People Team T-shirts",
+        "Team-specific shirt concepts and print artwork",
+        "▤"
+      ],
+      [
+        "Games BU T-shirts",
+        "Games team shirts, event editions and mockups",
+        "▤"
+      ],
+      [
+        "Ads BU T-shirts",
+        "Ads and MAS event shirts and apparel designs",
+        "▤"
+      ],
+      [
+        "BiG BU T-shirts",
+        "Brands in Games team merchandise",
+        "▤"
+      ],
+      [
+        "Marketing & Corporate T-shirts",
+        "Staff shirts and internal event apparel",
+        "▤"
+      ],
+      [
+        "Offsite one-pagers",
+        "Schedules, travel information and event guides",
+        "▦"
+      ],
+      [
+        "Offsite badges & lanyards",
+        "Name badges, lanyards and attendee assets",
+        "▣"
+      ],
+      [
+        "Event presentation backgrounds",
+        "Branded session slides and presentation visuals",
+        "▧"
+      ],
+      [
+        "Booth & conference signage",
+        "Roll-ups, stands, print and venue signage",
+        "▣"
+      ],
+      [
+        "Team event recap graphics",
+        "Photo recap posts and event highlights",
+        "▧"
+      ]
+    ],
+    "ai": []
+  }
+}
